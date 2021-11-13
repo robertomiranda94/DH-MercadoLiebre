@@ -1,0 +1,35 @@
+@media (min-width: 270px) {
+  footer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10px 20px;
+    margin-top: 30px;
+  }
+
+  footer article {
+    padding: 0 30px 50px;
+    text-align: center;
+  }
+
+  footer article i {
+    font-size: 2em;
+    margin-bottom: 5px;
+    color: var(--lightblue);
+  }
+
+  footer article h3 {
+    font-size: 1em;
+  }
+  footer article p {
+    font-size: 0.8em;
+  }
+  .copyright {
+    text-align: left;
+    font-size: 0.8em;
+    padding-left: 15px;
+    padding-bottom: 15px;
+  }
+}
